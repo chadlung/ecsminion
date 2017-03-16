@@ -92,6 +92,10 @@ class TokenRequest(object):
 
         if self.cache_token:
             log.debug("Caching token to '{0}'".format(self.token_file))
+
+            if os.path.isdir(self.token_location) is False:
+                raise ECSMinionException('Token directory not found.')
+
             with open(self.token_file, 'w') as token_file:
                 token_file.write(self.token)
 
