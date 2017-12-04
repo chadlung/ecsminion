@@ -1,3 +1,9 @@
+ECS Minion is deprecated.  Please use python-ecsclient. https://github.com/EMCECS/python-ecsclient
+==================================================================================================
+
+
+
+
 ECS Minion
 ==========
 
