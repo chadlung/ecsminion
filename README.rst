@@ -1,11 +1,17 @@
+ECS Minion is deprecated.  Please use python-ecsclient. https://github.com/EMCECS/python-ecsclient
+==================================================================================================
+
+
+
+
 ECS Minion
 ==========
 
 ECS Minion is a Python library for interacting with the ECS 2.x Management API
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: https://travis-ci.org/chadlung/ecsminion.svg?branch=master
-    :target: https://travis-ci.org/chadlung/ecsminion
+.. image:: https://travis-ci.org/EMCECS/ecsminion.svg?branch=master
+    :target: https://travis-ci.org/EMCECS/ecsminion
 
 **Note:** `ECS <https://www.emc.com>`__ is an EMC product,
 trademarked, copyrighted, etc.
